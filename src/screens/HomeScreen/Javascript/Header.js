@@ -140,7 +140,7 @@ export const Header = () => {
                   Contact
                 </Nav.Link>
 
-                <Nav.Link className="mx-3" href="https://www.linkedin.com/posts/samarthya-iit-roorkee_uba-iitr-iit-activity-6911018325128925185-4UsO/?originalSubdomain=in">
+                <Nav.Link className="mx-3" href="https://samarthyauba.iitr.ac.in/">
                   Samarthya
                 </Nav.Link>
               </Nav>
