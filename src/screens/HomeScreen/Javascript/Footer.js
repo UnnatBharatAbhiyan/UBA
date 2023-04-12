@@ -51,11 +51,11 @@ export const Footer = () => {
               <h5>Recent Events</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2 text-muted">
-                On the eve of 75th Independence Day, Team UBA IITR brings one-of-its-kind talk by Mr. Swapnil Tewari on topic- 'O Yuva!-Unleash your superpower.'
+                 Samarthya
                 </li>
                 <li class="nav-item mb-2">
-                  <a href="www.facebook.com/OYuva.ubaiitr/" class="nav-link p-0 text-warning">
-                  www.facebook.com/OYuva.ubaiitr/
+                  <a href="www.facebook.com/samarthya.ubaiitr/" class="nav-link p-0 text-warning">
+                  www.facebook.com/samarthya.ubaiitr/
                   </a>
                 </li>
               </ul>
@@ -96,7 +96,7 @@ export const Footer = () => {
               <form>
                 <h5>Contact Us</h5>
                 <p className="text-muted">Address : Unnat Bharat Abhiyan, IIT Roorkee, Uttarakhand</p>
-                <p className="text-muted">Phone : (+91) 8112283593</p>
+                <p className="text-muted">Phone : (+91) 8318450052</p>
                 <p className="text-muted">Email : uba@iitr.ac.in</p>
                 <div class="d-flex w-100 gap-2 text-muted">
                   <button class="btn btn-warning" type="button">
