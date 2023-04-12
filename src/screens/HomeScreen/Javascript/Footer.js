@@ -47,14 +47,14 @@ export const Footer = () => {
               </ul>
             </div>
 
-            <div class="col-3">
+            <div class="col-4">
               <h5>Recent Events</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2 text-muted">
                  Samarthya
                 </li>
                 <li class="nav-item mb-2">
-                  <a href="www.facebook.com/samarthya.ubaiitr/" class="nav-link p-0 text-warning">
+                  <a href="https://www.facebook.com/samarthya.ubaiitr?mibextid=ZbWKwL" class="nav-link p-0 text-warning">
                   www.facebook.com/samarthya.ubaiitr/
                   </a>
                 </li>
