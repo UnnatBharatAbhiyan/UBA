@@ -29,7 +29,11 @@
   border: none;
   cursor: pointer;
 }
+#know_card a{
+  text-decoration: none;  
+  color:#000000;
 
+}
 #card_main, #card_head{
   text-align: center;
 }
@@ -115,4 +119,8 @@ font-weight: bold;
 color: #aaaaaa;
 font-size: 12px;
 font-weight: bold;
+}
+
+#Init_title{
+  color:#ecc731;
 }

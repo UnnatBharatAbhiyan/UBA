@@ -18,7 +18,7 @@ export const InitCard = (props) => {
           <div id="card_main">
             {props.initiative}
           </div>
-          <button id="know_card">Know More</button>
+          <button id="know_card"><a href={props.go}>Know More</a></button>
         </div>
       </div>
     </>

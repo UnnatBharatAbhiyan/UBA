@@ -19,6 +19,17 @@ import { Work } from "./screens/HomeScreen/Javascript/Work";
 import About from "./screens/HomeScreen/Javascript/About";
 import {Faculty} from "./screens/HomeScreen/Javascript/Faculty";
 import {Contact} from "./screens/HomeScreen/Javascript/Contact";
+import {Init1} from "./screens/Initiatives/Init1";
+import {Init2} from "./screens/Initiatives/Init2";
+import {Init3} from "./screens/Initiatives/Init3";
+import {Init4} from "./screens/Initiatives/Init4";
+import {Init5} from "./screens/Initiatives/Init5";
+import {Init6} from "./screens/Initiatives/Init6";
+import {Init7} from "./screens/Initiatives/Init7";
+import {Init8} from "./screens/Initiatives/Init8";
+import {Init9} from "./screens/Initiatives/Init9";
+import {Init10} from "./screens/Initiatives/Init10";
+import {Init11} from "./screens/Initiatives/Init11";
 
 class App extends Component{
   render()
@@ -43,8 +54,19 @@ class App extends Component{
           <Route path='/events' exact element={<InitCard_Events/>}></Route>
           <Route path='/faculty' exact element={<Faculty/>}></Route>
           <Route path='/contact' exact element={<Contact/>}></Route>
+          <Route path='/init1' exact element={<Init1/>}></Route>
+          <Route path='/init2' exact element={<Init2/>}></Route>
+          <Route path='/init3' exact element={<Init3/>}></Route>
+          <Route path='/init4' exact element={<Init4/>}></Route>
+          <Route path='/init5' exact element={<Init5/>}></Route>
+          <Route path='/init6' exact element={<Init6/>}></Route>
+          <Route path='/init7' exact element={<Init7/>}></Route>
+          <Route path='/init8' exact element={<Init8/>}></Route>
+          <Route path='/init9' exact element={<Init9/>}></Route>
+          <Route path='/init10' exact element={<Init10/>}></Route>
+          <Route path='/init11' exact element={<Init11/>}></Route>
         </Routes>
-        <Footer/>
+        {/* <Footer/> */}
       </BrowserRouter>
       </>
     )

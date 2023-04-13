@@ -47,63 +47,63 @@ export const Initiative = () => {
           <div className="row">
             <div className="col-lg-4">
               <center>
-                <InitCard image={bioenzyme} village="All Adopted villages |" date="Ongoing" init="Bioenzyme Workshop" initiative="Empowering villages with the power of bio enzymes." /><br/>
+                <InitCard image={bioenzyme} village="All Adopted villages |" date="Ongoing" init="Bioenzyme Workshop" initiative="Empowering villages with the power of bio enzymes." go="/init1"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={SHG_wrkshp} village="Beladi | " date="August 20, 2022" init="SHG Formation Session" initiative="Unleashing the potential of women through Self-Help Groups." /><br/>
+                <InitCard image={SHG_wrkshp} village="Beladi | " date="August 20, 2022" init="SHG Formation Session" initiative="Unleashing the potential of women through Self-Help Groups." go="/init2"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={vermi} village="Beladi | " date="March 05, 2022" init="Vermicomposting Bed Setup" initiative="Vermicompost bed was installed in a farm to produce organic fertilisers." /><br/>
-              </center>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-4">
-              <center>
-                <InitCard image={e_lib} village="Meerpur | " date="January 20, 2022" init="E-Library SetUp" initiative="Initiative was to facilitate the students regarding various e-book resources available on e-library." /><br/>
-              </center>
-            </div>
-            <div className="col-lg-4">
-              <center>
-                <InitCard image={water_filt} village="Puranpur | " date="January 16, 2022" init="Water filter" initiative="Water Purifier is installed in primary school of Puranpur." /><br/>
-              </center>
-            </div>
-            <div className="col-lg-4">
-              <center>
-                <InitCard image={pub_lib} village="Puranpur | " date="October 31, 2021" init="Public library setup" initiative="Set up of a Public Library in the Puranpur village for the students at Ambedakar Bhawan with around 450 books on differnt subjects." /><br/>
+                <InitCard image={vermi} village="Beladi | " date="March 05, 2022" init="Vermicomposting Bed Setup" initiative="Vermicompost bed was installed in a farm to produce organic fertilisers." go="/init3"/><br/>
               </center>
             </div>
           </div>
           <div className="row">
             <div className="col-lg-4">
               <center>
-                <InitCard image={diya_stall} village="Chandpur | " date="October 30-31, 2021" init="SHG Diya Stall" initiative="On the eve of Diwali, Diya and handicrafts stall was set up at saraswati mandir, IIT Roorkee by SHG of Chandpur Village" /><br/>
+                <InitCard image={e_lib} village="Meerpur | " date="January 20, 2022" init="E-Library SetUp" initiative="Initiative was to facilitate the students regarding various e-book resources available on e-library." go="/init4"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={eco_brick} village="Chharba | " date="30 October, 2021" init="Eco Bricks" initiative="Team Chharba, Unnat Bharat Abhiyan, brought forward the idea of tackling plastic waste by implementing the 'Eco-Bricks' initiative." /><br/>
+                <InitCard image={water_filt} village="Puranpur | " date="January 16, 2022" init="Water filter" initiative="Water Purifier is installed in primary school of Puranpur." go="/init5"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={science_exp} village="Chandpur | " date="October 28, 2021" init="Science Lab Kit Distribution" initiative="Science Workshop held at LHC, IIT Roorkee and about 25 teachers from different schools of Haridwar and Dehradun gathered." /><br/>
+                <InitCard image={pub_lib} village="Puranpur | " date="October 31, 2021" init="Public library setup" initiative="Set up of a Public Library in the Puranpur village for the students at Ambedakar Bhawan with around 450 books on differnt subjects." go="/init6"/><br/>
+              </center>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-lg-4">
+              <center>
+                <InitCard image={diya_stall} village="Chandpur | " date="October 30-31, 2021" init="SHG Diya Stall" initiative="On the eve of Diwali, Diya and handicrafts stall was set up at saraswati mandir, IIT Roorkee by SHG of Chandpur Village" go="/init7"/><br/>
+              </center>
+            </div>
+            <div className="col-lg-4">
+              <center>
+                <InitCard image={eco_brick} village="Chharba | " date="30 October, 2021" init="Eco Bricks" initiative="Team Chharba, Unnat Bharat Abhiyan, brought forward the idea of tackling plastic waste by implementing the 'Eco-Bricks' initiative." go="/init8"/><br/>
+              </center>
+            </div>
+            <div className="col-lg-4">
+              <center>
+                <InitCard image={science_exp} village="Chandpur | " date="October 28, 2021" init="Science Lab Kit Distribution" initiative="Science Workshop held at LHC, IIT Roorkee and about 25 teachers from different schools of Haridwar and Dehradun gathered." go="/init9"/><br/>
               </center>
             </div>
           </div>
           <div className="row justify-content-around">
             <div className="col-lg-4">
               <center>
-                <InitCard image={comp_inst} village="Beladi | " date="October 14, 2021" init="Computer Installation" initiative="Computer were installed in various schools to give them a better perspective and possibilities that will benefit them in the future." /><br/>
+                <InitCard image={comp_inst} village="Beladi | " date="October 14, 2021" init="Computer Installation" initiative="Computer were installed in various schools to give them a better perspective and possibilities that will benefit them in the future." go="/init10" /><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={lib} village="Chharba | " date="August 20, 2021" init="Library Setup" initiative=" Public Library was implemented at GIC, Chharba under the caretaking of Principal, GIC." /><br/>
+                <InitCard image={lib} village="Chharba | " date="August 20, 2021" init="Library Setup" initiative=" Public Library was implemented at GIC, Chharba under the caretaking of Principal, GIC." go="/init11"/><br/>
               </center>
             </div>
           </div>
