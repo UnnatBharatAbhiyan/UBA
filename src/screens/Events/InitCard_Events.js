@@ -29,7 +29,7 @@ export const InitCard_Events = () => {
           image={e8}
           date='December 26,2022-December 31,2022'
           event='Sociothon 3.0'
-          desc='Sociothon, a social case competition conducted by team Unnat Bharat Abhiyan, IIT Roorkee which aims to nurture and foster critical thinking skills.'/>
+          desc='Sociothon, a social case competition conducted by team Unnat Bharat Abhiyan, IIT Roorkee which aims to nurture and foster critical thinking skills.' />
           <Events_InitCard 
           image={e9}
           date='December 24, 2021-December 29, 2021'
@@ -39,14 +39,14 @@ export const InitCard_Events = () => {
           image={e1}
           date='August 15, 2021'
           event='Oh Yuva! - Unleash your superpower'
-          desc='On the eve of 75th Independence Day, Team UBA IITRbrought talk by Mr. Swapnil Tewari on topic- O Yuva!-Unleash your superpower.'/>
+          desc='On the eve of 75th Independence Day, Team UBA IITRbrought talk by Mr. Swapnil Tewari on topic- O Yuva!-Unleash your superpower.' go="/e1"/>
       </div>
       <div className='cards'>
           <Events_InitCard 
           image={e2}
           date='December 29, 2020 - January 03, 2021'
           event='Sociothon'
-          desc='Sociothon, a social case competition conducted by team Unnat Bharat Abhiyan, IIT Roorkee which aims to nurture and foster critical thinking skills.'/>
+          desc='Sociothon, a social case competition conducted by team Unnat Bharat Abhiyan, IIT Roorkee which aims to nurture and foster critical thinking skills.' go="/e2"/>
           <Events_InitCard 
           image={e5}
           date='December 20, 2020'
@@ -56,24 +56,24 @@ export const InitCard_Events = () => {
           image={e3}
           date='December 19, 2020'
           event='Spandan- Talk by Anuradha Kapoor'
-          desc='In Spandan, Ms Anuradha Kapoor talked about how violence against women is an onging pandemic and much more.' />
+          desc='In Spandan, Ms Anuradha Kapoor talked about how violence against women is an onging pandemic and much more.' go="/"/>
       </div>
       <div className='cards'>
       <Events_InitCard 
           image={e4}
           date='December 19, 2020'
           event='Spandan- Talk by Varsha Singh'
-          desc='In Spandan, a session was organised by Ms Varsha singh where she showed self Defense techniques for women and much more.'/>
+          desc='In Spandan, a session was organised by Ms Varsha singh where she showed self Defense techniques for women and much more.' go="/"/>
           <Events_InitCard 
           image={e6}
           date='September 14, 2020'
           event='Talk by Naveen Kumar Chandra'
-          desc='On the eve of Hindi Diwas, Team UBA IITR brings one-of-its-kind talk by Mr. Naveen Kumar Chandra (the IAS Officer).'/>
+          desc='On the eve of Hindi Diwas, Team UBA IITR brings one-of-its-kind talk by Mr. Naveen Kumar Chandra (the IAS Officer).' go="/e4"/>
           <Events_InitCard 
            image={e7}
           date='January 17, 2020 - January 19,2020'
           event='Winter School 2020'
-          desc='Three day event organised by UBA, IITR which consisted of Guest Lectures, Workshops, Panel discussion, Group Discussion, a field visit and many more.'/>
+          desc='Three day event organised by UBA, IITR which consisted of Guest Lectures, Workshops, Panel discussion, Group Discussion, a field visit and many more.' />
 
     </div>
       <div className='cards'>

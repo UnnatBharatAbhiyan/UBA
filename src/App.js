@@ -30,6 +30,10 @@ import {Init8} from "./screens/Initiatives/Init8";
 import {Init9} from "./screens/Initiatives/Init9";
 import {Init10} from "./screens/Initiatives/Init10";
 import {Init11} from "./screens/Initiatives/Init11";
+import { E1} from "./screens/ev/E1";
+import { E2 } from "./screens/ev/E2";
+import { E3 } from "./screens/ev/E3";
+import { E4 } from "./screens/ev/E4";
 
 class App extends Component{
   render()
@@ -65,6 +69,10 @@ class App extends Component{
           <Route path='/init9' exact element={<Init9/>}></Route>
           <Route path='/init10' exact element={<Init10/>}></Route>
           <Route path='/init11' exact element={<Init11/>}></Route>
+          <Route path='/e1' exact element={<E1/>}></Route>
+          <Route path='/e2' exact element={<E2/>}></Route>
+          <Route path='/e3' exact element={<E3/>}></Route>
+          <Route path='/e4' exact element={<E4/>}></Route>
         </Routes>
         {/* <Footer/> */}
       </BrowserRouter>

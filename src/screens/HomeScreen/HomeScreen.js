@@ -38,17 +38,17 @@ export const HomeScreen = () => {
           <div className="row">
             <div className="col-lg-4">
               <center>
-                <InitCard image={bioenzyme} village="All Adopted villages |" date="Ongoing" init="Bioenzyme Workshop" initiative="Empowering villages with the power of bio enzymes." /><br/>
+                <InitCard image={bioenzyme} village="All Adopted villages |" date="Ongoing" init="Bioenzyme Workshop" initiative="Empowering villages with the power of bio enzymes." go="/init1"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={SHG_wrkshp} village="Beladi | " date="August 20, 2022" init="SHG Formation Session" initiative="Unleashing the potential of women through Self-Help Groups." /><br/>
+                <InitCard image={SHG_wrkshp} village="Beladi | " date="August 20, 2022" init="SHG Formation Session" initiative="Unleashing the potential of women through Self-Help Groups." go="/init2"/><br/>
               </center>
             </div>
             <div className="col-lg-4">
               <center>
-                <InitCard image={vermi} village="Beladi | " date="March 05, 2022" init="Vermicomposting Bed Setup" initiative="Vermicompost bed was installed in a farm to produce organic fertilisers." /><br/>
+                <InitCard image={vermi} village="Beladi | " date="March 05, 2022" init="Vermicomposting Bed Setup" initiative="Vermicompost bed was installed in a farm to produce organic fertilisers." go="/init3"/><br/>
               </center>
             </div>
           </div>
