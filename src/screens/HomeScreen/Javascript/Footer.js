@@ -70,7 +70,7 @@ export const Footer = () => {
             WEBSITE DEVELOPED BY UBA IITR WITH ❤️
             </p>
             <p className="text-center">
-            COPYRIGHT © 2015 SOCIAL WELFARE. ALL RIGHTS RESERVED.
+            COPYRIGHT © 2022 SOCIAL WELFARE. ALL RIGHTS RESERVED.
             </p>
           </Col>
     </footer>
