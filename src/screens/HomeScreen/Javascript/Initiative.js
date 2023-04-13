@@ -1,4 +1,5 @@
 import { InitCard } from '../../../components/Javascript/InitCard'
+import "../../../components/Css/InitCard.css"
 import food_kit from '../../../Images/Beladi/CycleDonation/covid.jpg'
 import cycle_donation from '../../../Images/Beladi/CycleDonation/i.jpg'
 import swacchta_hi_seva from '../../../Images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
@@ -19,14 +20,21 @@ export const Initiative = () => {
 
   return (
     <>
-
-
+    <div className="Init_sub-banner">
+          <div className="Init_overlay">
+          <div className="Init_container">
+          <h2>Our <span>Initiatives</span></h2>
+          <ol className="Init_breadcrumb">
+          <li><a href="#"><h3>Home</h3></a></li>
+          <li className="Init_active">Initiatives</li>
+          </ol>
+          </div>
+          </div>
+          </div>
       <div className="container">
+      
         <section >
           {/* <!--======= TITTLE =========--> */}
-          <div className="tittle">
-            <h2>Our <span>Initiatives </span></h2>
-          </div>
           {/* <div className="row">
             <div className="col-lg-4">
               <center>
