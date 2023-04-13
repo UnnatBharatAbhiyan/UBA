@@ -74,7 +74,7 @@ class App extends Component{
           <Route path='/e3' exact element={<E3/>}></Route>
           <Route path='/e4' exact element={<E4/>}></Route>
         </Routes>
-        {/* <Footer/> */}
+        <Footer/>
       </BrowserRouter>
       </>
     )
