@@ -1,3 +1,13 @@
+@media only screen and (max-width: 480px) {
+    /* Your CSS rules for phone screens go here */
+    /* For example: */
+    .img_history{
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+    }
+        
+  }
 .abouttop{
     margin-top: 40px;
 }
