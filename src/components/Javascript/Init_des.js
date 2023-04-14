@@ -9,10 +9,10 @@ export const Init_des = (props) => {
                     <div className="position-relative">
                         {/* Images */}
                         <div className="row justify-content-evenly">
-                            <img src={props.i1} alt="placeholder" className="col-lg-2 " />
-                            <img src={props.i2} alt="placeholder" className="col-lg-2 " />
-                            <img src={props.i3} alt="placeholder" className="col-lg-2 " />
-                            <img src={props.i4} alt="placeholder" className="col-lg-2 " />
+                            <img src={props.i1} alt="placeholder" className="col-lg-2 my-2" />
+                            <img src={props.i2} alt="placeholder" className="col-lg-2  my-2" />
+                            <img src={props.i3} alt="placeholder" className="col-lg-2 my-2" />
+                            <img src={props.i4} alt="placeholder" className="col-lg-2 my-2" />
                         </div>
 
                         {/* Text */}
