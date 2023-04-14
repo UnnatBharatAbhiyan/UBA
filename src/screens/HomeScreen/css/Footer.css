@@ -30,7 +30,8 @@
 }
 .bottom-bar{
     background: #77777782;
-    border-radius: 15% 15% 0% 0% ;
+    /* border-radius: 15% 15% 0% 0% ; */
+    /* box-shadow: 0 0 10px #7c7c7c; */
 }
 @media only screen and (max-width: 480px) {
     /* Your CSS rules for phone screens go here */

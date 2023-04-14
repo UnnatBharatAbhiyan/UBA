@@ -71,21 +71,21 @@ export const Team2021 = () => {
           </div>
           <div className="col-lg-5" style={{ marginLeft: "auto" }}>
             <StudentIdentityCard
-              studImg={kanny}
-              name="Kanhaiya Maddhesiya"
-              pos="Overall Initiative Leader"
-              // email="Email: mohit_u@ee.iitr.ac.in"
-              linkedIn="https://www.linkedin.com/in/mohit-umraiya-966911200"
-            />
-            <br />
-          </div>
-          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
-            <StudentIdentityCard
               studImg={hemant}
               name="Hemant Singh Adhikari"
               pos="Overall Co-ordinator for Operations"
               // email="Email: archi_g@ch.iitr.ac.in"
               linkedIn="https://www.linkedin.com/in/archi-gupta-7937b320b"
+            />
+            <br />
+          </div>
+          <div className="col-lg-5" style={{ marginLeft: "auto" }}>
+            <StudentIdentityCard
+              studImg={kanny}
+              name="Kanhaiya Maddhesiya"
+              pos="Overall Initiative Leader"
+              // email="Email: mohit_u@ee.iitr.ac.in"
+              linkedIn="https://www.linkedin.com/in/mohit-umraiya-966911200"
             />
             <br />
           </div>
