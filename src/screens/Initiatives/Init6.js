@@ -1,10 +1,14 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Init_des } from '../../components/Javascript/Init_des'
+import init_pic_1 from "../../Images/Initiatives/init6/1.jpg";
+import init_pic_2 from "../../Images/Initiatives/init6/2.jpg";
+import init_pic_3 from "../../Images/Initiatives/init6/3.jpg";
 export const Init6 = props => {
   return (
     <>
       <Init_des
+      i1={init_pic_1} i2={init_pic_2} i3={init_pic_3}
       title="PUBLIC LIBRARY SETUP"
       date=" October 31, 2021"
       village=" Puranpur"

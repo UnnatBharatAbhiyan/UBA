@@ -1,10 +1,15 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Init_des } from '../../components/Javascript/Init_des'
+import init_pic_1 from "../../Images/Initiatives/Init7/image1.png";
+import init_pic_2 from "../../Images/Initiatives/Init7/image2.png";
+import init_pic_3 from "../../Images/Initiatives/Init7/image3.png";
+import init_pic_4 from "../../Images/Initiatives/Init7/image4.png";
 export const Init7 = props => {
   return (
     <>
       <Init_des
+      i1={init_pic_1} i2={init_pic_2} i3={init_pic_3} i4={init_pic_4}
       title="SHG DIYA AND HANDICRAFTS STALL"
       date="  October 30-31, 2021"
       village=" Saraswati Mandir, IIT Roorkee"

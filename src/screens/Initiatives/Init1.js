@@ -1,10 +1,15 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Init_des } from '../../components/Javascript/Init_des'
+import init_pic_1 from "../../Images/Initiatives/init1/bioenzyme1.jpg";
+import init_pic_2 from "../../Images/Initiatives/init1/bioenzyme2.jpg";
+import init_pic_3 from "../../Images/Initiatives/init1/image03.jpg";
+import init_pic_4 from "../../Images/Initiatives/init1/image04.jpeg";
 export const Init1 = props => {
   return (
     <>
       <Init_des
+      i1={init_pic_1} i2={init_pic_2} i3={init_pic_3} i4={init_pic_4}
       title="BIOENZYME WORKSHOP"
       date=" Ongoing"
       village=" All villages"
